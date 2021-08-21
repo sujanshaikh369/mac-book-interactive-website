@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- head goes here -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mac-Book-Pro</title>
+    <!-- bootstrap cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- fresh css link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+<!-- body goes here -->
 
 <body>
     <main>
+
         <section class="py-5">
             <div class="container">
                 <div class="row">
@@ -22,23 +27,27 @@
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6">
+                        <!-- main header goes here  -->
                         <h1>Customize your blue 24-inch iMac with Apple M1 chip</h1>
                         <p>Apple M1 chip with 8-core CPU with 4 perfomance cores and 4 officiency cores, 7-core GPU,and
                             16-core
                             Neural Engine *gb unified memory 256gb ssd storge Two Thunderboil/USB 4 ports Magic Mouse
                             Magic
                             Keybord-US English</p>
+                        <!-- memory choose goes here -->
                         <div class="memory py-2">
                             <h4>Memory</h4>
                             <button id="memory-gb8" class="btn btn-secondary button-all">8GB unified memory</button>
                             <button id="memory-gb16" class="btn btn-secondary button-all">16GB unified memory</button>
                         </div>
+                        <!-- storage choose goes here -->
                         <div class="storage py-2">
                             <h4>Storage</h4>
                             <button id="ssd-storage256" class="btn btn-secondary button-all">256GB SSD storage</button>
                             <button id="ssd-storage512" class="btn btn-secondary button-all">512GB SSD storage</button>
                             <button id="ssd-storage1tb" class="btn btn-secondary button-all">1TB SSD storage</button>
                         </div>
+                        <!-- delivery choose goes here -->
                         <div class="option py-2">
                             <h4>Choose your delivery option</h4>
                             <button id="first-delivery" class="btn  btn-secondary button-all">Friday, Aug 25 FREE PRIME
@@ -47,6 +56,8 @@
                                 charge
                                 $20</button>
                         </div>
+
+                        <!-- price show window goes here -->
                         <div class="price text-center py-4">
                             <div class="best-price d-flex justify-content-between text-center">
                                 <h5>Best Price</h5>
@@ -73,6 +84,8 @@
                                 <h5>$<span id="total">1299</span></h5>
                             </div>
                         </div>
+
+                        <!-- promo option goes here -->
                         <div class="input-field">
                             <h4>Add Promo code</h4>
                             <div class="input-group input-field  mb-3">
@@ -84,6 +97,8 @@
                     </div>
                 </div>
                 <hr>
+
+                <!-- promo discouted final total goes here -->
                 <div class="total text-center">
                     <h2>Total: $<span id="all-total">1299</span> </h2>
                 </div>
