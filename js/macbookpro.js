@@ -22,10 +22,12 @@ const discountCode = document.getElementById("pomo-code");
 
 document.getElementById("pomo-Code").addEventListener("click", function () {
     const totalPrice = document.getElementById("total");
+    let couponCodeValue = discountCode.value;
     console.log(totalPrice.innerText);
     const totalAfterPromo = allTotalPrice.innerText;
     if (discountCode.value.toLowerCase() == "stevekaku") {
         allTotalPrice.innerText = totalAfterPromo - (totalAfterPromo * 20) / 100;
+        discountCode.value = '';
     } else {
         alert('Invalid Promo kaku');
     }
