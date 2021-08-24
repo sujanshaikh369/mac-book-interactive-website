@@ -30,9 +30,13 @@ document.getElementById("pomo-Code").addEventListener("click", function () {
         discountCode.value = '';
     } else {
         alert('Invalid Promo kaku');
+        discountCode.value = '';
     }
 });
-
+// Promo button disable setting
+function myFunction() {
+    document.getElementById("myBtnDisable").disabled = true;
+}
 //memory slot gb8 price add calculation
 document.getElementById("memory-gb8").addEventListener("click", function () {
     extra.innerText = "0";
